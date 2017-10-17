@@ -1,0 +1,70 @@
+body {
+  background:
+  url("wikiImages/space.png") no-repeat;
+  /*url('wikiImages/MillenniumFalcon.png') 300px 200px no-repeat,*/
+}
+
+.fixWidth {
+  max-width: 680px;
+}
+
+.falcon {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+#output {
+  position: absolute;
+  top: 470px;
+}
+
+.image {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Wikipedia-logo-en-big.png');
+/*   width: auto;
+  height: 1350px;
+  background-size: 100% 100%;
+  background-position: center; */
+  margin-top: 75px;
+  height: 1350px;
+  width: auto;
+
+  background-size: cover;
+    background-position: 0, 250;
+    background-attachment: scrollable; /* wish it could be scrollable while picture remains scaleable, soon to be learned.*/
+    background-size: 100% 100%;
+
+
+}
+/* img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+} */
+
+.btn-style {
+  border-radius: 2px;
+  margin: 0 auto;
+
+  width: 70%;
+  min-width: 80px;
+  /*max-width: 680px;*/
+  background-color: rgba(122, 255, 88, 0.59);
+}
+
+p {
+  color: black;
+  padding-left: 10px;
+}
+
+h3 {
+  color: black;
+  padding-left: 10px;
+}
+
+.mrWhite {
+  color: white;
+}
